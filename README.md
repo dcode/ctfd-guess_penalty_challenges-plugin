@@ -21,7 +21,7 @@ The current implementation requires the challenge to keep track of three values:
  * Decay - The amount of solves before the challenge will be at the minimum
  * Minimum - The lowest possible point valuation
 
-The penalty value follows the same decay logic as the DynamicValueChallenge.
+The penalty value follows the same decay logic as the built-in dynamic_challenge type.
 
 If the penalty would cause the net value to be lower than the minimum, the penalty
 will be adjusted accordingly.

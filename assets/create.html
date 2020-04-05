@@ -1,10 +1,10 @@
 <form method="POST" action="{{ script_root }}/admin/chal/new" enctype="multipart/form-data">
 	<div class="form-group">
 		<div class="alert alert-secondary" role="alert">
-			Dynamic value user challenges generate negative awards as they receive incorrect answers
-			by a given user or team. The more incorrect attempts a dynamic user challenge has, the
-			more negative awards are given to the user until the total negative points reaches the minimum
-			point value combined with the award value. This intends to discourage brute forcing challenges.
+			Guess penalty challenges issue penalties for incorrect guesses that are assessed once the challenge
+			is solved by a user or team. The more incorrect attempts, the greater the penalty is assessed up until
+			the net value of the challenge and penalty are no less than the minimum point value of the challenge.
+			his intends to discourage brute forcing challenges.
 		</div>
 	</div>
 
